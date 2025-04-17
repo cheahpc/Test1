@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestPlan type="OpenTap.TestPlan">
+  <Steps>
+    <TestStep type="OpenTap.Plugins.BasicSteps.DialogStep" Id="060fcebd-4d78-438c-91be-cfaff6e47345">
+      <Message>Testing</Message>
+      <Title>Test</Title>
+      <Buttons>OkCancel</Buttons>
+      <PositiveAnswer>NotSet</PositiveAnswer>
+      <NegativeAnswer>NotSet</NegativeAnswer>
+      <UseTimeout>false</UseTimeout>
+      <Timeout>5</Timeout>
+      <DefaultAnswer>NotSet</DefaultAnswer>
+      <ShowPicture>false</ShowPicture>
+      <PictureSource />
+      <PictureDescription />
+      <Name Metadata="Step Name">Dialog</Name>
+      <ChildTestSteps />
+    </TestStep>
+    <TestStep type="OpenTap.Plugins.BasicSteps.DelayStep" Id="067a456f-3fba-436d-a695-26d968833921">
+      <DelaySecs>0.1</DelaySecs>
+      <Name Metadata="Step Name">Delay</Name>
+      <ChildTestSteps />
+    </TestStep>
+  </Steps>
+  <Package.Dependencies>
+    <Package Name="OpenTAP" Version="^9.27.1+49587562" />
+  </Package.Dependencies>
+</TestPlan>
